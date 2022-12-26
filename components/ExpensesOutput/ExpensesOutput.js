@@ -34,6 +34,24 @@ const DUMMY_EXPENSES = [
     amount: 49.99,
     date: new Date("2021-12-22"),
   },
+  {
+    id: "e6",
+    description: "Mark Bass 4x10 Combo",
+    amount: 2025.99,
+    date: new Date("2015-09-01"),
+  },
+  {
+    id: "e7",
+    description: "Rock Bag Double Bass",
+    amount: 289.99,
+    date: new Date("2015-01-22"),
+  },
+  {
+    id: "e8",
+    description: "Sef of 5 Strings",
+    amount: 49.99,
+    date: new Date("2021-12-22"),
+  },
 ];
 
 function ExpensesOutput({ expenses, expensesPeriod }) {
@@ -50,7 +68,9 @@ export default ExpensesOutput;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 24,
+    paddingHorizontal: 24,
+    paddingTop: 24,
+    paddingBottom: 0,
     backgroundColor: GlobalStyles.colors.primary700,
   },
 });
