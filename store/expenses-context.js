@@ -17,7 +17,7 @@ const DUMMY_EXPENSES = [
     id: "e3",
     description: "Mark Bass 4x10 Combo",
     amount: 2025.99,
-    date: new Date("2015-09-01"),
+    date: new Date("2022-12-23"),
   },
   {
     id: "e4",
